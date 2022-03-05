@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <!--
+  Create a new website using HTML and Bootstrap. The website must include the following:
+A Bootstrap navbar
+A Bootstrap styled table
+A Bootstrap styled form
+At least 2 pages
+Bootstrap grid used throughout to format elements
+Elements should stack vertically when the window is small
+  -->
+  <script src="node_modules/jquery/dist/jquery.js"></script>
+  <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Book Choices For This Week</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">HOME</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="book-choices.html">BOOK CHOICES</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+ <div class="container">
+  <div class="row text-center">
+    <div class="col my-5">
+      <h1>
+        BOOK CHOICES FOR THIS WEEK
+      </h1>
+    </div>
+  </div>
+ </div>
+ 
+ <div class="container d-md-flex justify-content-center">
+  <div class="row">
+    <div class="col-lg my-5 mx-5">
+      <img src="images/a-court-of-thorns-and-roses.jpg" alt="A Court of Thorns and Roses">
+    </div>
+    <div class="col-lg my-5 mx-5">
+      <img src="images/if-you-tell.jpg" alt="If You Tell">
+    </div>
+    <div class="col-lg my-5 mx-5">
+      <img src="images/it-ends-with-us.jpg" alt=""It Ends With Us>
+    </div>
+  </div>
+ </div>
+
+
+</body>
+
+</html>
